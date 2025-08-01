@@ -1,8 +1,8 @@
-using NUnit.Framework.Legacy;
+﻿using NUnit.Framework.Legacy;
 using OpenQA.Selenium;
-using XperienceCommunity.ExtensionTemplate.UITests.Helpers;
+using XperienceCommunity.CustomIndexes.UITests.Helpers;
 
-namespace XperienceCommunity.ExtensionTemplate.UITests.Core
+namespace XperienceCommunity.CustomIndexes.UITests.Core
 {
     public class BaseWebsiteTests : UITestBase
     {

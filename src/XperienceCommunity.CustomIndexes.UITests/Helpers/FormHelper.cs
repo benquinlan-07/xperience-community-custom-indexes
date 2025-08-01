@@ -1,6 +1,6 @@
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
-namespace XperienceCommunity.ExtensionTemplate.UITests.Helpers
+namespace XperienceCommunity.CustomIndexes.UITests.Helpers
 {
     internal class FormHelper
     {

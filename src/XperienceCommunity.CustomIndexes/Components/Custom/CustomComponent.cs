@@ -1,11 +1,11 @@
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Kentico.Xperience.Admin.Base;
 
-namespace XperienceCommunity.ExtensionTemplate.Components.Custom;
+namespace XperienceCommunity.CustomIndexes.Components.Custom;
 
 public class CustomComponent : ActionComponent<CustomComponentProperties, CustomComponentClientProperties>
 {
-    public override string ClientComponentName => "@xperiencecommunityextensiontemplates/web-admin/Custom";
+    public override string ClientComponentName => "@xperiencecommunitycustomindexess/web-admin/Custom";
 
     protected override Task ConfigureClientProperties(CustomComponentClientProperties clientProperties)
     {

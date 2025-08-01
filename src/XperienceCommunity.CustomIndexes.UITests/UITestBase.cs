@@ -1,7 +1,7 @@
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
 
-namespace XperienceCommunity.ExtensionTemplate.UITests;
+namespace XperienceCommunity.CustomIndexes.UITests;
 
 public abstract class UITestBase
 {

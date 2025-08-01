@@ -1,4 +1,4 @@
-const webpackMerge = require("webpack-merge");
+﻿const webpackMerge = require("webpack-merge");
 
 const baseWebpackConfig = require("@kentico/xperience-webpack-config");
 
@@ -7,7 +7,7 @@ module.exports = (opts, argv) => {
     return baseWebpackConfig({
       // Sets the organizationName and projectName
       // The JS module is registered on the backend using these values
-      orgName: "xperiencecommunityextensiontemplates",
+      orgName: "xperiencecommunitycustomindexess",
       projectName: "web-admin",
       webpackConfigEnv: webpackConfigEnv,
       argv: argv,

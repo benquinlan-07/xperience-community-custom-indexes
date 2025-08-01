@@ -1,9 +1,9 @@
-using CMS.DataEngine;
+﻿using CMS.DataEngine;
 using CMS.FormEngine;
 using CMS.Modules;
-using XperienceCommunity.ExtensionTemplate.Models;
+using XperienceCommunity.CustomIndexes.Models;
 
-namespace XperienceCommunity.ExtensionTemplate;
+namespace XperienceCommunity.CustomIndexes;
 
 internal class ExtensionModuleInstaller
 {
@@ -20,7 +20,7 @@ internal class ExtensionModuleInstaller
                        ?? new ResourceInfo();
 
         InitializeResource(resource);
-        InstallCustomExtensionTemplateItemInfo(resource);
+        InstallCustomCustomIndexesItemInfo(resource);
     }
 
     public ResourceInfo InitializeResource(ResourceInfo resource)
@@ -36,21 +36,21 @@ internal class ExtensionModuleInstaller
         return resource;
     }
 
-    public void InstallCustomExtensionTemplateItemInfo(ResourceInfo resource)
+    public void InstallCustomCustomIndexesItemInfo(ResourceInfo resource)
     {
-        var info = DataClassInfoProvider.GetDataClassInfo(CustomExtensionTemplateItemInfo.OBJECT_TYPE) ?? DataClassInfo.New(CustomExtensionTemplateItemInfo.OBJECT_TYPE);
+        var info = DataClassInfoProvider.GetDataClassInfo(CustomCustomIndexesItemInfo.OBJECT_TYPE) ?? DataClassInfo.New(CustomCustomIndexesItemInfo.OBJECT_TYPE);
 
-        info.ClassName = CustomExtensionTemplateItemInfo.TYPEINFO.ObjectClassName;
-        info.ClassTableName = CustomExtensionTemplateItemInfo.TYPEINFO.ObjectClassName.Replace(".", "_");
-        info.ClassDisplayName = CustomExtensionTemplateItemInfo.OBJECT_CLASS_DISPLAYNAME;
+        info.ClassName = CustomCustomIndexesItemInfo.TYPEINFO.ObjectClassName;
+        info.ClassTableName = CustomCustomIndexesItemInfo.TYPEINFO.ObjectClassName.Replace(".", "_");
+        info.ClassDisplayName = CustomCustomIndexesItemInfo.OBJECT_CLASS_DISPLAYNAME;
         info.ClassType = ClassType.OTHER;
         info.ClassResourceID = resource.ResourceID;
 
-        var formInfo = FormHelper.GetBasicFormDefinition(nameof(CustomExtensionTemplateItemInfo.CustomExtensionTemplateItemId));
+        var formInfo = FormHelper.GetBasicFormDefinition(nameof(CustomCustomIndexesItemInfo.CustomCustomIndexesItemId));
 
         var formItem = new FormFieldInfo
         {
-            Name = nameof(CustomExtensionTemplateItemInfo.CustomExtensionTemplateItemGuid),
+            Name = nameof(CustomCustomIndexesItemInfo.CustomCustomIndexesItemGuid),
             AllowEmpty = false,
             Visible = true,
             Precision = 0,
@@ -61,7 +61,7 @@ internal class ExtensionModuleInstaller
 
         formItem = new FormFieldInfo
         {
-            Name = nameof(CustomExtensionTemplateItemInfo.CustomExtensionTemplateItemPlaceholder),
+            Name = nameof(CustomCustomIndexesItemInfo.CustomCustomIndexesItemPlaceholder),
             AllowEmpty = true,
             Visible = true,
             Size = 500,

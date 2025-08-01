@@ -1,4 +1,4 @@
-namespace XperienceCommunity.ExtensionTemplate.UITests
+﻿namespace XperienceCommunity.CustomIndexes.UITests
 {
     public class Constants
     {

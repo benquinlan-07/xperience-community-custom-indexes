@@ -1,6 +1,6 @@
-using Kentico.Xperience.Admin.Base;
+﻿using Kentico.Xperience.Admin.Base;
 
-namespace XperienceCommunity.ExtensionTemplate.Components.Custom;
+namespace XperienceCommunity.CustomIndexes.Components.Custom;
 
 public class CustomComponentClientProperties : IActionComponentClientProperties
 {

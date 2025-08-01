@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XperienceCommunity.ExtensionTemplate", "XperienceCommunity.ExtensionTemplate\XperienceCommunity.ExtensionTemplate.csproj", "{91FE881D-228E-4BF8-8AD2-9DB8D203CC2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XperienceCommunity.CustomIndexes", "XperienceCommunity.CustomIndexes\XperienceCommunity.CustomIndexes.csproj", "{91FE881D-228E-4BF8-8AD2-9DB8D203CC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XperienceCommunity.ExtensionTemplate.UITests", "XperienceCommunity.ExtensionTemplate.UITests\XperienceCommunity.ExtensionTemplate.UITests.csproj", "{761C9271-B14D-407F-91A9-FDF1903476A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XperienceCommunity.CustomIndexes.UITests", "XperienceCommunity.CustomIndexes.UITests\XperienceCommunity.CustomIndexes.UITests.csproj", "{761C9271-B14D-407F-91A9-FDF1903476A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

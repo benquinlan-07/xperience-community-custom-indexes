@@ -1,15 +1,15 @@
-using System;
+﻿using System;
 using CMS.Base;
 using CMS.Core;
 using Kentico.Xperience.Admin.Base;
 using Microsoft.Extensions.DependencyInjection;
-using XperienceCommunity.ExtensionTemplate;
-using XperienceCommunity.ExtensionTemplate;
+using XperienceCommunity.CustomIndexes;
+using XperienceCommunity.CustomIndexes;
 
 [assembly: CMS.AssemblyDiscoverable]
 [assembly: CMS.RegisterModule(typeof(ExtensionAdminModule))]
 
-namespace XperienceCommunity.ExtensionTemplate;
+namespace XperienceCommunity.CustomIndexes;
 
 internal class ExtensionAdminModule : AdminModule
 {

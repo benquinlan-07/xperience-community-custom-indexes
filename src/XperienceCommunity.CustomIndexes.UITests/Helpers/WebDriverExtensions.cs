@@ -1,7 +1,7 @@
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using OpenQA.Selenium;
 
-namespace XperienceCommunity.ExtensionTemplate.UITests.Helpers
+namespace XperienceCommunity.CustomIndexes.UITests.Helpers
 {
     internal static class WebDriverExtensions
     {
